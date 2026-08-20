@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "S01-P",
+    "situacion": "S01",
+    "ambito": "Pareja",
+    "clase": "P",
+    "texto": "Nunca cuentas conmigo. Haces siempre lo que te da la gana.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S01-N",
+    "situacion": "S01",
+    "ambito": "Pareja",
+    "clase": "N",
+    "texto": "Has tomado esta decisión sin consultarme.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S01-F",
+    "situacion": "S01",
+    "ambito": "Pareja",
+    "clase": "F",
+    "texto": "Me gustaría que las decisiones que nos afectan las habláramos antes.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S02-P",
+    "situacion": "S02",
+    "ambito": "Pareja",
+    "clase": "P",
+    "texto": "Eres igual que tu padre. Nunca reconoces cuando te equivocas.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S02-N",
+    "situacion": "S02",
+    "ambito": "Pareja",
+    "clase": "N",
+    "texto": "No has reconocido tu error en esta situación.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S02-F",
+    "situacion": "S02",
+    "ambito": "Pareja",
+    "clase": "F",
+    "texto": "Me ayudaría que pudiéramos reconocer juntos qué parte nos corresponde a cada uno.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 7.9,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S03-P",
+    "situacion": "S03",
+    "ambito": "Familia",
+    "clase": "P",
+    "texto": "Contigo no se puede hablar de nada.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S03-N",
+    "situacion": "S03",
+    "ambito": "Familia",
+    "clase": "N",
+    "texto": "Esta conversación se está haciendo difícil.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S03-F",
+    "situacion": "S03",
+    "ambito": "Familia",
+    "clase": "F",
+    "texto": "Quiero hablar de esto, pero necesito que encontremos una forma en la que ambos podamos escucharnos.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S04-P",
+    "situacion": "S04",
+    "ambito": "Familia",
+    "clase": "P",
+    "texto": "Siempre tienes una excusa para todo.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S04-N",
+    "situacion": "S04",
+    "ambito": "Familia",
+    "clase": "N",
+    "texto": "Has dado varias explicaciones distintas.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S04-F",
+    "situacion": "S04",
+    "ambito": "Familia",
+    "clase": "F",
+    "texto": "Quiero entender qué ha ocurrido antes de sacar conclusiones.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S05-P",
+    "situacion": "S05",
+    "ambito": "Padres-hijos",
+    "clase": "P",
+    "texto": "Eres un irresponsable, nunca haces nada a tiempo.",
+    "referencia": {
+      "IEC": 8.8,
+      "IBC": 1.5,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S05-N",
+    "situacion": "S05",
+    "ambito": "Padres-hijos",
+    "clase": "N",
+    "texto": "No has entregado la tarea en la fecha acordada.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S05-F",
+    "situacion": "S05",
+    "ambito": "Padres-hijos",
+    "clase": "F",
+    "texto": "La tarea no está entregada; veamos qué necesitas para cumplir el próximo plazo.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S06-P",
+    "situacion": "S06",
+    "ambito": "Padres-hijos",
+    "clase": "P",
+    "texto": "Como sigas así no vas a llegar a nada.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S06-N",
+    "situacion": "S06",
+    "ambito": "Padres-hijos",
+    "clase": "N",
+    "texto": "Tus resultados han empeorado este trimestre.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S06-F",
+    "situacion": "S06",
+    "ambito": "Padres-hijos",
+    "clase": "F",
+    "texto": "Tus resultados han bajado; quiero que veamos juntos qué está pasando y cómo ayudarte.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S07-P",
+    "situacion": "S07",
+    "ambito": "Amistad",
+    "clase": "P",
+    "texto": "Solo me llamas cuando necesitas algo.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S07-N",
+    "situacion": "S07",
+    "ambito": "Amistad",
+    "clase": "N",
+    "texto": "Últimamente me has llamado principalmente para pedirme ayuda.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S07-F",
+    "situacion": "S07",
+    "ambito": "Amistad",
+    "clase": "F",
+    "texto": "Echo de menos que nuestra relación tenga también momentos que no giren alrededor de problemas.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 7.9,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S08-P",
+    "situacion": "S08",
+    "ambito": "Amistad",
+    "clase": "P",
+    "texto": "Haz lo que quieras, como siempre.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S08-N",
+    "situacion": "S08",
+    "ambito": "Amistad",
+    "clase": "N",
+    "texto": "Puedes decidirlo tú.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S08-F",
+    "situacion": "S08",
+    "ambito": "Amistad",
+    "clase": "F",
+    "texto": "No estoy de acuerdo, pero respeto que la decisión final sea tuya.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 7.9,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S09-P",
+    "situacion": "S09",
+    "ambito": "Trabajo",
+    "clase": "P",
+    "texto": "Este informe es un desastre.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S09-N",
+    "situacion": "S09",
+    "ambito": "Trabajo",
+    "clase": "N",
+    "texto": "El informe contiene varios errores.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S09-F",
+    "situacion": "S09",
+    "ambito": "Trabajo",
+    "clase": "F",
+    "texto": "He detectado varios errores en el informe; revisémoslos para dejarlo sólido.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S10-P",
+    "situacion": "S10",
+    "ambito": "Trabajo",
+    "clase": "P",
+    "texto": "No tienes ni idea de cómo llevar este proyecto.",
+    "referencia": {
+      "IEC": 8.8,
+      "IBC": 1.5,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S10-N",
+    "situacion": "S10",
+    "ambito": "Trabajo",
+    "clase": "N",
+    "texto": "No comparto cómo estás gestionando el proyecto.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S10-F",
+    "situacion": "S10",
+    "ambito": "Trabajo",
+    "clase": "F",
+    "texto": "Hay decisiones de gestión que me preocupan; me gustaría revisar contigo sus efectos.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S11-P",
+    "situacion": "S11",
+    "ambito": "Dirección",
+    "clase": "P",
+    "texto": "Si tengo que explicártelo otra vez, lo hago yo.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S11-N",
+    "situacion": "S11",
+    "ambito": "Dirección",
+    "clase": "N",
+    "texto": "Ya hemos revisado este procedimiento anteriormente.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S11-F",
+    "situacion": "S11",
+    "ambito": "Dirección",
+    "clase": "F",
+    "texto": "Quiero comprobar qué parte del procedimiento no ha quedado clara para poder resolverla.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S12-P",
+    "situacion": "S12",
+    "ambito": "Dirección",
+    "clase": "P",
+    "texto": "Aquí se hace lo que digo yo.",
+    "referencia": {
+      "IEC": 8.8,
+      "IBC": 1.5,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S12-N",
+    "situacion": "S12",
+    "ambito": "Dirección",
+    "clase": "N",
+    "texto": "La decisión final me corresponde a mí.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S12-F",
+    "situacion": "S12",
+    "ambito": "Dirección",
+    "clase": "F",
+    "texto": "Escucharé las propuestas y después asumiré la responsabilidad de decidir.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 7.9,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S13-P",
+    "situacion": "S13",
+    "ambito": "Educación",
+    "clase": "P",
+    "texto": "Este alumno no tiene ningún interés.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S13-N",
+    "situacion": "S13",
+    "ambito": "Educación",
+    "clase": "N",
+    "texto": "El alumno participa poco en clase.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S13-F",
+    "situacion": "S13",
+    "ambito": "Educación",
+    "clase": "F",
+    "texto": "Está participando poco; conviene averiguar qué está dificultando su implicación.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S14-P",
+    "situacion": "S14",
+    "ambito": "Educación",
+    "clase": "P",
+    "texto": "Si no estudias, suspenderás porque te lo mereces.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S14-N",
+    "situacion": "S14",
+    "ambito": "Educación",
+    "clase": "N",
+    "texto": "Si no estudias, es probable que suspendas.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S14-F",
+    "situacion": "S14",
+    "ambito": "Educación",
+    "clase": "F",
+    "texto": "Si mantienes este nivel de estudio, probablemente no alcanzarás los objetivos; podemos organizar un plan.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S15-P",
+    "situacion": "S15",
+    "ambito": "Deporte",
+    "clase": "P",
+    "texto": "Has perdido el partido tú solo.",
+    "referencia": {
+      "IEC": 8.8,
+      "IBC": 1.5,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S15-N",
+    "situacion": "S15",
+    "ambito": "Deporte",
+    "clase": "N",
+    "texto": "Tu error influyó en el resultado.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S15-F",
+    "situacion": "S15",
+    "ambito": "Deporte",
+    "clase": "F",
+    "texto": "Ese error tuvo peso en la jugada; vamos a analizarlo para aprender de él.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S16-P",
+    "situacion": "S16",
+    "ambito": "Deporte",
+    "clase": "P",
+    "texto": "No tienes carácter para competir.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S16-N",
+    "situacion": "S16",
+    "ambito": "Deporte",
+    "clase": "N",
+    "texto": "Hoy te has mostrado inseguro en momentos decisivos.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S16-F",
+    "situacion": "S16",
+    "ambito": "Deporte",
+    "clase": "F",
+    "texto": "Hoy te costó decidir bajo presión; podemos entrenar específicamente esas situaciones.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S17-P",
+    "situacion": "S17",
+    "ambito": "Atención al público",
+    "clase": "P",
+    "texto": "Ya se lo he explicado tres veces, ¿qué parte no entiende?",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S17-N",
+    "situacion": "S17",
+    "ambito": "Atención al público",
+    "clase": "N",
+    "texto": "Ya le he explicado este procedimiento varias veces.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S17-F",
+    "situacion": "S17",
+    "ambito": "Atención al público",
+    "clase": "F",
+    "texto": "Parece que mi explicación anterior no ha sido suficiente; voy a plantearlo de otra manera.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S18-P",
+    "situacion": "S18",
+    "ambito": "Atención al público",
+    "clase": "P",
+    "texto": "Ese no es mi problema.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S18-N",
+    "situacion": "S18",
+    "ambito": "Atención al público",
+    "clase": "N",
+    "texto": "Ese asunto no corresponde a mi departamento.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S18-F",
+    "situacion": "S18",
+    "ambito": "Atención al público",
+    "clase": "F",
+    "texto": "No puedo resolverlo desde aquí, pero puedo indicarle dónde pueden ayudarle.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 7.9,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S19-P",
+    "situacion": "S19",
+    "ambito": "Convivencia",
+    "clase": "P",
+    "texto": "Eres un cerdo, nunca recoges nada.",
+    "referencia": {
+      "IEC": 8.8,
+      "IBC": 1.5,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S19-N",
+    "situacion": "S19",
+    "ambito": "Convivencia",
+    "clase": "N",
+    "texto": "Has dejado tus cosas sin recoger.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S19-F",
+    "situacion": "S19",
+    "ambito": "Convivencia",
+    "clase": "F",
+    "texto": "Necesito que recojas lo que has dejado para que podamos compartir el espacio cómodamente.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 7.9,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S20-P",
+    "situacion": "S20",
+    "ambito": "Convivencia",
+    "clase": "P",
+    "texto": "No pienso aguantar tus manías.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S20-N",
+    "situacion": "S20",
+    "ambito": "Convivencia",
+    "clase": "N",
+    "texto": "No quiero mantener esta dinámica.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S20-F",
+    "situacion": "S20",
+    "ambito": "Convivencia",
+    "clase": "F",
+    "texto": "Esta dinámica me está resultando difícil y necesito que acordemos otra forma de organizarnos.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 7.9,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S21-P",
+    "situacion": "S21",
+    "ambito": "Desconocidos",
+    "clase": "P",
+    "texto": "¿Eres tonto o qué?",
+    "referencia": {
+      "IEC": 8.8,
+      "IBC": 1.5,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S21-N",
+    "situacion": "S21",
+    "ambito": "Desconocidos",
+    "clase": "N",
+    "texto": "No entiendo por qué has hecho eso.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S21-F",
+    "situacion": "S21",
+    "ambito": "Desconocidos",
+    "clase": "F",
+    "texto": "Lo que acabas de hacer me ha molestado; necesito que mantengamos distancia.",
+    "referencia": {
+      "IEC": 2.4,
+      "IBC": 7.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S22-P",
+    "situacion": "S22",
+    "ambito": "Desconocidos",
+    "clase": "P",
+    "texto": "Aprende a conducir, inútil.",
+    "referencia": {
+      "IEC": 8.8,
+      "IBC": 1.5,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S22-N",
+    "situacion": "S22",
+    "ambito": "Desconocidos",
+    "clase": "N",
+    "texto": "Has hecho una maniobra peligrosa.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S22-F",
+    "situacion": "S22",
+    "ambito": "Desconocidos",
+    "clase": "F",
+    "texto": "Esa maniobra ha sido peligrosa; por favor, mantén más distancia.",
+    "referencia": {
+      "IEC": 2.4,
+      "IBC": 7.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S23-P",
+    "situacion": "S23",
+    "ambito": "Redes sociales",
+    "clase": "P",
+    "texto": "Solo un ignorante puede pensar eso.",
+    "referencia": {
+      "IEC": 8.8,
+      "IBC": 1.5,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S23-N",
+    "situacion": "S23",
+    "ambito": "Redes sociales",
+    "clase": "N",
+    "texto": "No comparto esa opinión.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S23-F",
+    "situacion": "S23",
+    "ambito": "Redes sociales",
+    "clase": "F",
+    "texto": "No coincido con esa conclusión; veo el asunto de otra manera por estas razones.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S24-P",
+    "situacion": "S24",
+    "ambito": "Redes sociales",
+    "clase": "P",
+    "texto": "Das pena intentando justificarte.",
+    "referencia": {
+      "IEC": 8.8,
+      "IBC": 1.5,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S24-N",
+    "situacion": "S24",
+    "ambito": "Redes sociales",
+    "clase": "N",
+    "texto": "Tu explicación no me convence.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S24-F",
+    "situacion": "S24",
+    "ambito": "Redes sociales",
+    "clase": "F",
+    "texto": "Tu explicación no resuelve mis dudas; ¿puedes aclarar este punto?",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S25-P",
+    "situacion": "S25",
+    "ambito": "Institucional",
+    "clase": "P",
+    "texto": "Los usuarios se quejan por todo.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S25-N",
+    "situacion": "S25",
+    "ambito": "Institucional",
+    "clase": "N",
+    "texto": "Hemos recibido varias quejas de usuarios.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S25-F",
+    "situacion": "S25",
+    "ambito": "Institucional",
+    "clase": "F",
+    "texto": "Las quejas recibidas pueden ayudarnos a identificar qué parte del servicio necesita revisión.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 7.9,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S26-P",
+    "situacion": "S26",
+    "ambito": "Institucional",
+    "clase": "P",
+    "texto": "No podemos perder el tiempo con estas tonterías.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S26-N",
+    "situacion": "S26",
+    "ambito": "Institucional",
+    "clase": "N",
+    "texto": "No podemos priorizar este asunto ahora.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S26-F",
+    "situacion": "S26",
+    "ambito": "Institucional",
+    "clase": "F",
+    "texto": "Ahora mismo tenemos otras prioridades; revisaremos este asunto cuando dispongamos de capacidad.",
+    "referencia": {
+      "IEC": 2.4,
+      "IBC": 7.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S27-P",
+    "situacion": "S27",
+    "ambito": "Salud/acompañamiento",
+    "clase": "P",
+    "texto": "Tienes que dejar de pensar así.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S27-N",
+    "situacion": "S27",
+    "ambito": "Salud/acompañamiento",
+    "clase": "N",
+    "texto": "Ese pensamiento te está generando malestar.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S27-F",
+    "situacion": "S27",
+    "ambito": "Salud/acompañamiento",
+    "clase": "F",
+    "texto": "Podemos explorar qué efecto tiene ese pensamiento y si existe otra forma de mirarlo.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S28-P",
+    "situacion": "S28",
+    "ambito": "Salud/acompañamiento",
+    "clase": "P",
+    "texto": "Te estás ahogando en un vaso de agua.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S28-N",
+    "situacion": "S28",
+    "ambito": "Salud/acompañamiento",
+    "clase": "N",
+    "texto": "La situación parece menor desde fuera.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S28-F",
+    "situacion": "S28",
+    "ambito": "Salud/acompañamiento",
+    "clase": "F",
+    "texto": "Aunque desde fuera pueda parecer pequeña, veo que para ti está teniendo mucho peso.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S29-P",
+    "situacion": "S29",
+    "ambito": "Negociación",
+    "clase": "P",
+    "texto": "O aceptas esto o no hay nada que hablar.",
+    "referencia": {
+      "IEC": 8.8,
+      "IBC": 1.5,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S29-N",
+    "situacion": "S29",
+    "ambito": "Negociación",
+    "clase": "N",
+    "texto": "Esta es mi propuesta final.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S29-F",
+    "situacion": "S29",
+    "ambito": "Negociación",
+    "clase": "F",
+    "texto": "Este es el límite hasta el que puedo llegar; si no encaja, tendremos que buscar otra opción.",
+    "referencia": {
+      "IEC": 2.4,
+      "IBC": 7.6,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S30-P",
+    "situacion": "S30",
+    "ambito": "Negociación",
+    "clase": "P",
+    "texto": "Estás intentando aprovecharte de mí.",
+    "referencia": {
+      "IEC": 8.0,
+      "IBC": 2.1,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S30-N",
+    "situacion": "S30",
+    "ambito": "Negociación",
+    "clase": "N",
+    "texto": "Considero que la propuesta me perjudica.",
+    "referencia": {
+      "IEC": 3.2,
+      "IBC": 5.4,
+      "tolerancia": 1.5
+    }
+  },
+  {
+    "id": "S30-F",
+    "situacion": "S30",
+    "ambito": "Negociación",
+    "clase": "F",
+    "texto": "La propuesta me resulta desequilibrada; necesito revisar estas condiciones antes de avanzar.",
+    "referencia": {
+      "IEC": 1.7,
+      "IBC": 8.6,
+      "tolerancia": 1.5
+    }
+  }
+]
