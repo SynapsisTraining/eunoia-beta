@@ -1,4 +1,4 @@
-import json
+x-goog-api-key.import json
 import random
 from pathlib import Path
 import streamlit as st
@@ -7,6 +7,7 @@ import csv
 import io
 import math
 import statistics
+import time
 
 st.set_page_config(page_title="Eunoia | Entrenamiento conversacional", page_icon="🌿", layout="centered")
 
@@ -15,7 +16,8 @@ st.set_page_config(page_title="Eunoia | Entrenamiento conversacional", page_icon
 # -----------------------------
 API_KEY = st.secrets.get("GEMINI_API_KEY", "")
 MODEL = st.secrets.get("GEMINI_MODEL", "gemini-3.7-flash")
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+FALLBACK_MODEL = st.secrets.get("GEMINI_FALLBACK_MODEL", "gemini-3.6-flash")
+API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
 
 st.markdown("""
 <style>
@@ -91,21 +93,94 @@ def compare_reference(result, reference):
 # -----------------------------
 # LLM helpers
 # -----------------------------
+def _safe_api_error(response):
+    """Devuelve un error legible sin exponer cabeceras, URL ni credenciales."""
+    status = getattr(response, "status_code", None)
+    try:
+        body = response.json()
+        message = body.get("error", {}).get("message", "")
+    except Exception:
+        message = ""
+    if status == 429:
+        return "Gemini ha alcanzado temporalmente un límite de solicitudes. Inténtalo de nuevo en unos segundos."
+    if status in (500, 502, 503, 504):
+        return "El servicio de Gemini está temporalmente ocupado o no disponible."
+    if status in (401, 403):
+        return "Gemini ha rechazado la autenticación. Revisa la clave API y sus permisos."
+    if status == 404:
+        return "El modelo solicitado no está disponible para esta cuenta o endpoint."
+    return f"Gemini devolvió un error HTTP {status}." + (f" {message}" if message else "")
+
+
+def _request_model(model_name, payload, retries=3):
+    url = f"{API_BASE}/{model_name}:generateContent"
+    headers = {
+        "x-goog-api-key": API_KEY,
+        "Content-Type": "application/json",
+    }
+    retryable = {429, 500, 502, 503, 504}
+    last_response = None
+
+    for attempt in range(retries):
+        try:
+            response = requests.post(url, headers=headers, json=payload, timeout=75)
+            last_response = response
+        except requests.RequestException:
+            if attempt < retries - 1:
+                time.sleep(1.5 * (2 ** attempt))
+                continue
+            raise RuntimeError("No se pudo conectar con Gemini. Comprueba la conexión e inténtalo de nuevo.")
+
+        if response.ok:
+            data = response.json()
+            try:
+                output = data["candidates"][0]["content"]["parts"][0]["text"]
+                return json.loads(output)
+            except (KeyError, IndexError, TypeError, json.JSONDecodeError):
+                raise RuntimeError("Gemini respondió, pero el formato recibido no era válido para Eunoia.")
+
+        if response.status_code in retryable and attempt < retries - 1:
+            time.sleep(1.5 * (2 ** attempt))
+            continue
+
+        break
+
+    raise RuntimeError(_safe_api_error(last_response))
+
+
 def call_gemini(system_prompt, user_prompt, temperature=None):
     if not API_KEY:
         raise RuntimeError("Falta GEMINI_API_KEY en los Secrets de Streamlit.")
+
+    generation_config = {"responseMimeType": "application/json"}
+    if temperature is not None:
+        generation_config["temperature"] = temperature
+
     payload = {
         "system_instruction": {"parts": [{"text": system_prompt}]},
         "contents": [{"role": "user", "parts": [{"text": user_prompt}]}],
-        "generationConfig": {
-            "responseMimeType": "application/json"
-        }
+        "generationConfig": generation_config,
     }
-    r = requests.post(f"{API_URL}?key={API_KEY}", json=payload, timeout=60)
-    r.raise_for_status()
-    data = r.json()
-    text = data["candidates"][0]["content"]["parts"][0]["text"]
-    return json.loads(text)
+
+    try:
+        return _request_model(MODEL, payload, retries=3)
+    except RuntimeError as primary_error:
+        # Solo recurrimos al modelo alternativo ante indisponibilidad temporal
+        # o modelo no accesible; no ocultamos problemas de autenticación.
+        msg = str(primary_error)
+        fallback_allowed = (
+            "temporalmente" in msg
+            or "no está disponible" in msg
+            or "No se pudo conectar" in msg
+            or "límite de solicitudes" in msg
+        )
+        if FALLBACK_MODEL and FALLBACK_MODEL != MODEL and fallback_allowed:
+            try:
+                return _request_model(FALLBACK_MODEL, payload, retries=2)
+            except RuntimeError:
+                pass
+        raise primary_error
+
 
 ANALYSIS_SYSTEM = """
 Eres el motor de análisis de Eunoia.
